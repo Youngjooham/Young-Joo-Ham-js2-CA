@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sass src/scss:dist/css",
     "watch": "sass --watch src/scss:dist/css & live-server"
   },
@@ -19,10 +20,11 @@
   },
   "homepage": "https://github.com/Youngjooham/Young-Joo-Ham-js2-CA#readme",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.3.0-alpha3"
   },
   "devDependencies": {
-    "live-server": "^1.2.2",
-    "sass": "^1.62.1"
+    "live": "^0.1.25-beta.0",
+    "sass": "^1.62.1",
+    "server": "^1.0.38"
   }
 }
